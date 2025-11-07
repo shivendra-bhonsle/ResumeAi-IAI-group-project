@@ -109,7 +109,17 @@ ResumeAi/
    pip install -r requirements.txt
    ```
 
-4. **Setup environment variables**
+4. **Download datasets**
+
+   Download the required datasets and place them in the `data/` directory:
+
+   - **Job Descriptions Dataset**: [Kaggle - Job Description Dataset](https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset)
+     - Download `job_descriptions.csv` and place in `data/job_descriptions.csv`
+
+   - **Resume Dataset**: [HuggingFace - Resumes Dataset](https://huggingface.co/datasets/datasetmaster/resumes)
+     - Download `master_resumes.jsonl` and place in `data/master_resumes.jsonl`
+
+5. **Setup environment variables**
    ```bash
    cp .env.example .env
    # Edit .env file and add your GEMINI_API_KEY

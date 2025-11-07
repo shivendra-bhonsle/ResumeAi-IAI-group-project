@@ -50,6 +50,10 @@ data/sample_resumes/*.pdf
 data/sample_job_descriptions/*.txt
 data/sample_job_descriptions/*.docx
 
+# Large datasets (download separately from sources)
+data/job_descriptions.csv
+data/master_resumes.jsonl
+
 # Outputs
 outputs/rankings/*.json
 outputs/rankings/*.csv
