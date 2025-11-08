@@ -1,0 +1,33 @@
+Senior Software Test Engineer, Embedded Systems, Silicon
+corporate_fare
+Google
+place
+Mountain View, CA, USA
+Minimum qualifications:
+Bachelor's degree or equivalent practical experience.
+5 years of experience in coding, developing test methodologies, writing test plans, creating test cases, and debugging.
+5 years of experience in hardware or embedded testing/automation role.
+Experience testing embedded software on SoC on Linux, Android or Real-Time Operating System (RTOS) including Hardware architecture, board schematics, protocols and standards.
+
+Preferred qualifications:
+Experience working with prototype devices.
+Experience in Android application development.
+Knowledge of Linux kernel driver test automation and framework development.
+Excellent programming skills in Java, C/C++, JNI and Python.
+Passion for test engineering and well tested code.
+About the job
+At Google, our philosophy is build it, break it and then rebuild it better. That thinking is at the core of how we approach testing at Google. Unlike roles with similar names at the other companies, Test Engineers at Google aren't manual testers -- you write scripts to automate testing and create tools so developers can test their own code. As a Test Engineer, you navigate Google's massive codebase, identify weak spots and constantly design better and creative ways to break software and identify potential problems. You'll have a huge impact on the quality of Google's growing suite of products and services.
+
+You use your knowledge of testing and testability to influence better software design, promote proper engineering practice, bug prevention strategies, testability, accessibility, privacy, and other advanced quality concepts across products.
+
+Google's mission is to organize the world's information and make it universally accessible and useful. Our team combines the best of Google AI, Software, and Hardware to create radically helpful experiences. We research, design, and develop new technologies and hardware to make computing faster, seamless, and more powerful. We aim to make people's lives better through technology.
+
+The US base salary range for this full-time position is $144,000-$211,000 + bonus + equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
+
+Please note that the compensation details listed in US role postings reflect the base salary only, and do not include bonus, equity, or benefits. Learn more about benefits at Google.
+Responsibilities
+Deliver exceptional software quality for one or more IPs within silicon software.
+Create and implement test strategies by working with development teams to identify risk areas and fill the testing gaps.
+Drive test automation using existing test frameworks and work with the Engineering Productivity team to enhance and develop new test frameworks based on test requirements.
+Manage Product and Engineering excellence as a core value within test engineering and with our associated development partners.
+Triage and analyze test results and incoming feedback to identify areas for improvement.

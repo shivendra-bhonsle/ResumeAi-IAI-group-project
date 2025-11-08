@@ -125,4 +125,48 @@ ResumeAi/
    # Edit .env file and add your GEMINI_API_KEY
    ```
 
+### Testing the Parser Module
+
+Before running the full system, test the document parsing module:
+
+```bash
+# Test resume parser
+python tests/test_parser/test_parsing.py tests/test_parser/test_resume/Shivendra_Resume.docx
+
+# Test job description parser
+python tests/test_job_parser/test_job_parsing.py tests/test_job_parser/sample_job_description.txt
+```
+
+Expected output: ✅ Parsing successful with extracted information displayed.
+
+## Current Status
+
+### ✅ Completed (Person 1 - Document Parsing)
+- Resume parsing from .docx files using Gemini API
+- Job description parsing from text
+- ML-ready data schemas with feature extraction methods
+- Batch processing support (15 resumes in parallel)
+- Data validation and quality scoring
+- Comprehensive test scripts
+
+**Performance:**
+- Speed: ~9 seconds per resume (gemini-2.5-flash-lite)
+- Batch: 50 resumes in ~30-40 seconds (parallel processing)
+- Accuracy: 83%+ data completeness
+
+### 🔨 In Progress
+- **Person 2**: Scoring Modules (skills, experience, education, location)
+- **Person 3**: Ranking Engine & Semantic Similarity
+- **Person 4**: Streamlit UI
+
+### 📚 Integration Guide
+
+For detailed information on integrating with the parsing module, see **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)**
+
+This guide includes:
+- Complete API reference for all data models
+- Code examples for each team member
+- Performance optimization tips
+- Troubleshooting guide
+
 

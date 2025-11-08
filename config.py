@@ -38,7 +38,7 @@ if not GEMINI_API_KEY:
 # Model Configuration
 # ===========================================
 # Gemini model for document parsing
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-pro")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
 
 # Sentence transformer model for semantic similarity
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
