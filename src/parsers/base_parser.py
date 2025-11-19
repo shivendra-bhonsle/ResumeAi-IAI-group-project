@@ -197,6 +197,29 @@ class BaseParser(ABC):
 
         return cleaned
 
+    def normalize_enum_values(self, data: Any) -> Any:
+        """
+        Recursively normalize enum string values to lowercase.
+
+        LLMs sometimes return "Unknown" instead of "unknown" for enum fields.
+        This method recursively walks through the data structure and lowercases
+        all string values to match enum definitions.
+
+        Args:
+            data: Dictionary, list, or primitive value
+
+        Returns:
+            Normalized data with lowercase string values
+        """
+        if isinstance(data, dict):
+            return {key: self.normalize_enum_values(value) for key, value in data.items()}
+        elif isinstance(data, list):
+            return [self.normalize_enum_values(item) for item in data]
+        elif isinstance(data, str):
+            return data.lower()
+        else:
+            return data
+
     def validate_output(self, parsed_dict: Dict[str, Any]) -> BaseModel:
         """
         Validate parsed dictionary against Pydantic schema.
@@ -213,17 +236,28 @@ class BaseParser(ABC):
         schema_class = self.get_schema_class()
 
         try:
+            # Normalize enum values (lowercase all strings)
+            normalized_dict = self.normalize_enum_values(parsed_dict)
+
             # Pydantic validation
-            validated_obj = schema_class(**parsed_dict)
+            validated_obj = schema_class(**normalized_dict)
             logger.debug("Validation successful")
             return validated_obj
 
         except ValidationError as e:
             logger.error(f"Validation errors: {e.errors()}")
-            raise ValidationError(
-                f"Schema validation failed: {len(e.errors())} errors. "
-                f"First error: {e.errors()[0]}"
-            ) from e
+            # Format error details for better debugging
+            error_details = []
+            for err in e.errors()[:5]:  # Show first 5 errors
+                loc = ".".join(str(x) for x in err.get('loc', []))
+                msg = err.get('msg', 'Unknown error')
+                error_details.append(f"{loc}: {msg}")
+
+            error_msg = (
+                f"Schema validation failed with {len(e.errors())} error(s):\n"
+                + "\n".join(f"  - {detail}" for detail in error_details)
+            )
+            raise ParserValidationError(error_msg) from e
 
     def post_process(self, obj: BaseModel) -> BaseModel:
         """
