@@ -1,0 +1,72 @@
+Job Title: Business/Data Analyst (SQL + Tableau)
+Company: SilverPeak Financial Services
+Location: Chicago, IL (Hybrid)
+Experience Required: 2–4 years
+Employment Type: Full-time
+
+About the Role:
+SilverPeak Financial Services is looking for a Business/Data Analyst to support reporting, analytics, and insights generation across lending, forecasting, and customer experience teams. You will work closely with business stakeholders to turn data into actionable recommendations that improve operational efficiency and customer outcomes.
+
+This role involves building dashboards, analyzing trends, maintaining KPI reporting pipelines, and supporting strategic decision-making for senior leadership.
+
+Responsibilities:
+
+Develop and maintain Tableau dashboards used across finance, operations, and executive teams.
+
+Write optimized SQL queries to source, clean, and transform data from multiple databases.
+
+Perform deep-dive analyses on trends in customer behavior and operational performance.
+
+Create standardized KPI reporting frameworks to improve data consistency.
+
+Collaborate with stakeholders to define data requirements and reporting cadences.
+
+Present findings through clear data storytelling and visualization techniques.
+
+Support A/B testing workflows and ad-hoc analytical requests.
+
+Maintain data quality checks and documentation standards.
+
+Assist with quarterly forecasting and financial modeling efforts.
+
+Build automated pipelines to streamline repetitive reporting tasks.
+
+Required Skills:
+
+Strong SQL experience (window functions, joins, performance tuning).
+
+Proficiency with Tableau and dashboard-building best practices.
+
+Experience with Excel (advanced formulas, pivot tables, macros).
+
+Strong analytical thinking and business acumen.
+
+Experience with data cleaning, validation, and pipeline workflows.
+
+Excellent communication and stakeholder-management skills.
+
+Preferred Skills:
+
+Familiarity with Python or R for deeper analysis.
+
+Exposure to Snowflake or BigQuery.
+
+Experience working in financial or regulated environments.
+
+Knowledge of forecasting models and KPI frameworks.
+
+Education Requirements:
+Bachelor’s degree in Finance, Business Analytics, Economics, or related field.
+
+Compensation Range (optional):
+$90,000–$115,000 base salary
+
+Why Join Us:
+
+High-visibility role supporting leadership decision-making.
+
+Strong culture emphasizing analytics and data maturity.
+
+Professional development opportunities and sponsored certifications.
+
+Hybrid flexibility and excellent benefits.

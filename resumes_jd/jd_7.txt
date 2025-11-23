@@ -1,0 +1,72 @@
+Job Title: Machine Learning Engineer (MLOps + Model Deployment)
+Company: CloudForge Intelligence
+Location: Seattle, WA (Hybrid)
+Experience Required: 3–6 years
+Employment Type: Full-time
+
+About the Role:
+CloudForge Intelligence is hiring a Machine Learning Engineer to build scalable ML infrastructure, deployment pipelines, and end-to-end production workflows for mission-critical AI applications. This role sits at the intersection of machine learning, DevOps, and distributed systems engineering.
+
+You will work closely with data scientists and software engineers to operationalize models, automate training pipelines, and establish robust MLOps practices across the organization.
+
+Responsibilities:
+
+Build scalable model-deployment workflows using Docker, Kubernetes, and CI/CD pipelines.
+
+Develop automated training, evaluation, and rollout pipelines for ML models.
+
+Implement monitoring systems to track model drift, latency, and performance degradation.
+
+Partner with data engineers to design feature-store pipelines and real-time data ingestion.
+
+Optimize models for inference via quantization, batching, and distributed serving.
+
+Establish MLOps best practices including model versioning, lineage, reproducibility, and governance.
+
+Collaborate with application teams to integrate ML services into core products.
+
+Build dashboards and alerts for ML system health and operational metrics.
+
+Troubleshoot GPU/CPU scaling issues in production.
+
+Contribute to automation that reduces deployment times and improves reliability.
+
+Required Skills:
+
+Strong Python engineering background.
+
+Experience with ML frameworks (PyTorch, TensorFlow) and serving frameworks.
+
+Expertise in Kubernetes, Docker, cloud deployments (AWS/GCP/Azure).
+
+Strong understanding of CI/CD pipelines and infrastructure automation tools.
+
+Experience with logging, monitoring, and observability tooling.
+
+Excellent collaboration and documentation skills.
+
+Preferred Skills:
+
+Experience with feature stores (Feast, Tecton).
+
+Knowledge of Kafka, Spark Streaming, or Flink.
+
+Experience with vector databases or real-time inference systems.
+
+Familiarity with security and compliance for AI systems.
+
+Education Requirements:
+Bachelor’s or Master’s in Computer Science, Software Engineering, or related fields.
+
+Compensation Range (optional):
+$140,000–$175,000 base salary
+
+Why Join Us:
+
+High-ownership role shaping end-to-end ML infrastructure.
+
+Work on advanced distributed systems and real-time inference challenges.
+
+Strong engineering culture focused on reliability and automation.
+
+Hybrid flexibility and industry-leading benefits.
