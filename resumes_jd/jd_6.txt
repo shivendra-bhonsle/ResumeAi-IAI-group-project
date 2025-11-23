@@ -1,0 +1,70 @@
+Job Title: Machine Learning Engineer (NLP/LLM Focus)
+Company: LexiCore AI
+Location: Remote (US-Based)
+Experience Required: 4–7 years
+Employment Type: Full-time
+
+About the Role:
+LexiCore AI is seeking a Machine Learning Engineer specializing in NLP and large language models to help develop next-generation language-understanding systems. You will build, deploy, and optimize models that support summarization, classification, semantic search, and generative AI use cases for enterprise customers.
+
+You will collaborate with research scientists, data engineers, and platform teams to bring state-of-the-art LLM techniques into production environments.
+
+Responsibilities:
+
+Build and fine-tune NLP/LLM models for classification, summarization, and semantic similarity tasks.
+
+Develop data pipelines for large-scale text preprocessing and labeling.
+
+Deploy models to production using containerized microservices and CI/CD pipelines.
+
+Monitor model performance, latency, and drift in real-time environments.
+
+Optimize transformers for inference efficiency using quantization, pruning, and GPU acceleration.
+
+Collaborate with research teams to evaluate new architectures and algorithms.
+
+Partner with product teams to translate business problems into ML solutions.
+
+Develop automated training, evaluation, and monitoring frameworks.
+
+Document model decisions, risks, metrics, and reproducibility constraints.
+
+Required Skills:
+
+Strong experience with Python, PyTorch, TensorFlow, and HuggingFace Transformers.
+
+Expertise in NLP, LLMs, embeddings, tokenization, and prompt engineering.
+
+Experience deploying ML models via Docker, Kubernetes, and modern CI/CD stacks.
+
+Familiarity with distributed training and GPU-based computation.
+
+Strong understanding of model monitoring, drift detection, and evaluation metrics.
+
+Excellent communication and cross-team collaboration skills.
+
+Preferred Skills:
+
+Experience with Retrieval-Augmented Generation (RAG).
+
+Knowledge of vector databases such as Pinecone, Milvus, or Weaviate.
+
+Experience with cloud ML platforms (SageMaker, Vertex AI).
+
+Familiarity with reinforcement learning from human feedback (RLHF).
+
+Education Requirements:
+Bachelor’s or Master’s in Computer Science, Machine Learning, or related fields.
+
+Compensation Range (optional):
+$150,000–$185,000 base salary
+
+Why Join Us:
+
+Work on cutting-edge NLP and generative AI systems.
+
+100% remote engineering organization.
+
+Strong emphasis on research-to-production workflows.
+
+Competitive compensation and equity program.

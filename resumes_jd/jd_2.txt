@@ -1,0 +1,74 @@
+Job Title: Full-Stack Engineer (React + Node.js)
+Company: BrightLeaf Technologies
+Location: San Diego, CA (Onsite with flexible Fridays)
+Experience Required: 4–6 years
+Employment Type: Full-time
+
+About the Role:
+BrightLeaf Technologies is expanding its full-stack engineering team to deliver modern, customer-facing applications used by thousands of small businesses nationwide. This role involves building dynamic UI components in React, implementing scalable Node.js services, and shaping the technical direction of our customer engagement platform.
+
+You will collaborate closely with design, product, and infrastructure teams, contributing to both frontend and backend components to build seamless user experiences. This is a hands-on engineering role with meaningful ownership over new features and system enhancements.
+
+Responsibilities:
+
+Develop high-performance, responsive user interfaces using React, TypeScript, and modern component architecture.
+
+Build backend services and APIs with Node.js, Express, and PostgreSQL.
+
+Optimize application performance across frontend and backend layers.
+
+Improve CI/CD pipelines and deployment workflows using GitHub Actions.
+
+Collaborate with UX designers to refine user flows and improve product usability.
+
+Implement security best practices across authentication, input validation, and code quality.
+
+Participate in architecture discussions for new product modules.
+
+Write automated tests (unit, integration, end-to-end) for frontend and backend systems.
+
+Work cross-functionally to debug production issues and deliver root-cause analyses.
+
+Document technical specifications and contribute to engineering standards.
+
+Required Skills:
+
+Proficiency in React, TypeScript, HTML/CSS, and modern state-management libraries.
+
+Strong experience with Node.js, Express, and RESTful API development.
+
+Knowledge of SQL databases (PostgreSQL or MySQL).
+
+Experience building CI/CD pipelines and working with cloud-based deployments.
+
+Strong debugging and problem-solving abilities.
+
+Experience with Git, testing frameworks (Jest, Mocha), and containerized environments.
+
+Preferred Skills:
+
+Familiarity with micro-frontend architecture.
+
+Experience with GraphQL and WebSockets.
+
+Exposure to AWS (Lambda, ECS, S3).
+
+Experience with UI performance profiling and optimization.
+
+Education Requirements:
+Bachelor’s degree in Computer Science or related field.
+
+Compensation Range (optional):
+$120,000–$150,000 base salary
+
+Why Join Us:
+
+Build high-impact customer-facing applications.
+
+Work with modern tooling and engineering best practices.
+
+Strong design and product collaboration culture.
+
+Career progression into senior or staff engineering tracks.
+
+Great office environment plus flexible Fridays.

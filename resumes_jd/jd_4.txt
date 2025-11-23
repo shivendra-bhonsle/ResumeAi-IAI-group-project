@@ -1,0 +1,72 @@
+Job Title: Marketing Data Analyst (SQL + Excel + Visualization)
+Company: BrightSky Consumer Products
+Location: Denver, CO (Hybrid)
+Experience Required: 2–5 years
+Employment Type: Full-time
+
+About the Role:
+BrightSky Consumer Products seeks a Marketing Data Analyst to help build a data-driven marketing strategy supporting brand campaigns, customer acquisition, and retention. You will analyze performance across paid media, CRM, and e-commerce funnels and work with marketing, product, and analytics teams to build actionable insights.
+
+This is a high-impact role where your analysis will directly influence advertising spending, campaign optimization, and ROI tracking.
+
+Responsibilities:
+
+Analyze marketing funnel performance across paid search, social, email, and web channels.
+
+Build SQL queries to extract and transform marketing datasets from multiple sources.
+
+Develop and maintain performance dashboards with Excel, Power BI, or Tableau.
+
+Provide weekly and monthly reporting for marketing leadership.
+
+Conduct customer segmentation and cohort analysis to identify high-value audiences.
+
+Support marketing attribution model improvements and experimentation.
+
+Partner with media teams to guide budget allocation decisions.
+
+Identify insights that optimize conversion rates and improve ROAS.
+
+Establish data quality monitoring for marketing data feeds.
+
+Present findings to non-technical stakeholders in clear, compelling formats.
+
+Required Skills:
+
+Strong SQL and Excel (power functions, lookups, modeling).
+
+Experience with visualization tools (Power BI, Tableau, or Looker).
+
+Knowledge of digital marketing metrics, funnel analysis, and attribution.
+
+Experience working with large datasets.
+
+Strong communication and data storytelling abilities.
+
+Ability to work cross-functionally in fast-paced environments.
+
+Preferred Skills:
+
+Familiarity with Google Analytics, BigQuery, or ad-platform APIs.
+
+Experience with Python for data cleaning or modeling.
+
+Understanding of marketing automation systems (HubSpot, Marketo).
+
+Experience with A/B testing and experimentation frameworks.
+
+Education Requirements:
+Bachelor’s degree in Marketing Analytics, Statistics, Business, or related field.
+
+Compensation Range (optional):
+$85,000–$105,000 base salary
+
+Why Join Us:
+
+Direct influence on marketing strategy and spending.
+
+Collaborative environment with data-driven marketers.
+
+Opportunity to lead analytical enhancements across campaigns.
+
+Excellent benefits, hybrid schedule, and career growth pathways.

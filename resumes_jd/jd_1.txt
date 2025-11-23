@@ -1,0 +1,76 @@
+Job Title: Backend Engineer (Python/FastAPI)
+Company: Horizon DataWorks
+Location: Austin, TX (Hybrid)
+Experience Required: 3–5 years
+Employment Type: Full-time
+
+About the Role:
+Horizon DataWorks is seeking a Backend Engineer who will help architect, build, and optimize scalable backend services supporting our next-generation data automation platform. You will work closely with data engineering, frontend, and infrastructure teams to create high-availability APIs and distributed systems used by enterprise customers. This role is ideal for an engineer who enjoys solving complex backend challenges, improving system performance, and contributing to a growing engineering culture grounded in reliability, quality, and automation.
+
+You will be responsible for building robust microservices, driving improvements to our API layer, and influencing architectural decisions as we expand our core service capabilities.
+
+Responsibilities:
+
+Design, implement, and maintain scalable backend APIs using Python, FastAPI, and asynchronous architectures.
+
+Build RESTful and event-driven services to support real-time data processing workflows.
+
+Improve application performance by profiling bottlenecks and optimizing database and caching operations.
+
+Collaborate with DevOps to deploy services across AWS using CI/CD pipelines.
+
+Develop unit, integration, and load tests for all backend endpoints.
+
+Implement secure authentication, authorization, and data-access patterns.
+
+Work with product managers to translate business requirements into technical specifications.
+
+Participate in code reviews and mentor junior engineers on best practices.
+
+Monitor backend systems using metrics, tracing, and logging tools.
+
+Contribute to technical design documents and long-term architectural roadmaps.
+
+Required Skills:
+
+Strong expertise in Python, FastAPI, asyncio, and RESTful service design.
+
+Experience with SQL databases (PostgreSQL preferred).
+
+Familiarity with Redis, Docker, and AWS services.
+
+Strong understanding of microservices architecture and distributed systems.
+
+Experience with observability tooling (Grafana, Prometheus, etc.).
+
+Knowledge of API security principles and authentication standards (JWT/OAuth).
+
+Excellent problem-solving skills and attention to detail.
+
+Preferred Skills:
+
+Experience with message queues (Kafka, RabbitMQ).
+
+Knowledge of infrastructure-as-code frameworks such as Terraform.
+
+Familiarity with event-driven architecture.
+
+Experience building high-throughput, low-latency applications.
+
+Education Requirements:
+Bachelor’s or Master’s degree in Computer Science, Software Engineering, or related field.
+
+Compensation Range (optional):
+$125,000–$155,000 base salary
+
+Why Join Us:
+
+High-impact role with ownership over core backend systems.
+
+Work with a collaborative, senior engineering team.
+
+Opportunities for career growth and architecture leadership.
+
+Strong engineering culture with emphasis on automation and performance.
+
+Competitive compensation, benefits, and hybrid flexibility.

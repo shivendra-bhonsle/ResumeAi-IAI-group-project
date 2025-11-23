@@ -1,0 +1,72 @@
+Job Title: Product Analytics Data Scientist
+Company: NovaStream Media
+Location: New York, NY (Hybrid)
+Experience Required: 3–6 years
+Employment Type: Full-time
+
+About the Role:
+NovaStream Media is searching for a Product Analytics Data Scientist to influence product direction across our streaming and content-discovery platform. You will partner with product managers, designers, and engineers to uncover insights that power personalized recommendations, feature prioritization, and user-engagement improvements.
+
+You will structure experiments, analyze behavioral data at scale, and communicate insights that shape the user experience for millions of customers.
+
+Responsibilities:
+
+Analyze user-behavior data to identify opportunities that improve engagement and retention.
+
+Build dashboards and automated reporting that surface key product metrics.
+
+Partner with product managers to define success metrics for feature launches.
+
+Design, run, and interpret A/B tests to guide product decisions.
+
+Conduct cohort, segmentation, funnel, and retention analyses.
+
+Develop statistical models to predict user behavior and content preferences.
+
+Collaborate with data engineering to improve data quality and pipelines.
+
+Communicate complex analyses to stakeholders through visual and narrative storytelling.
+
+Support long-term data strategy and analytics roadmap planning.
+
+Mentor junior analysts and contribute to analytics best practices.
+
+Required Skills:
+
+Strong SQL and Python for data manipulation and modeling.
+
+Knowledge of experimentation frameworks and causal inference.
+
+Expertise in visualization tools (Tableau, Looker, Mode).
+
+Familiarity with behavioral analytics, funnel analysis, and cohort modeling.
+
+Strong statistical foundations and problem-solving skills.
+
+Excellent communication and cross-functional collaboration abilities.
+
+Preferred Skills:
+
+Experience with recommendation systems or personalization.
+
+Exposure to Spark or distributed computing frameworks.
+
+Knowledge of product analytics tools (Amplitude, Mixpanel).
+
+Experience in media or subscription-based products.
+
+Education Requirements:
+Bachelor’s or Master’s degree in Data Science, Statistics, Computer Science, or similar field.
+
+Compensation Range (optional):
+$130,000–$165,000 base salary
+
+Why Join Us:
+
+Influence a product used by millions of people.
+
+Work closely with world-class product and engineering teams.
+
+Strong internal analytics culture and career advancement opportunities.
+
+Hybrid flexibility with modern NYC workspace.
