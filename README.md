@@ -5,11 +5,11 @@ An intelligent resume ranking system that automates candidate screening using LL
 ## Overview
 
 ResumeAI takes a job description and multiple resume files as input, then automatically ranks candidates from best to worst fit based on:
-- Skills matching (30%)
-- Experience matching (25%)
-- Semantic similarity (25%)
-- Education matching (15%)
-- Location matching (5%)
+- Skills matching (33%)
+- Experience matching (27%)
+- Semantic similarity (27%)
+- Education matching (13%)
+- Location matching (0% - excluded from scoring)
 
 ## Key Features
 
@@ -141,32 +141,50 @@ Expected output: ✅ Parsing successful with extracted information displayed.
 
 ## Current Status
 
-### ✅ Completed (Person 1 - Document Parsing)
-- Resume parsing from .docx files using Gemini API
-- Job description parsing from text
-- ML-ready data schemas with feature extraction methods
-- Batch processing support (15 resumes in parallel)
-- Data validation and quality scoring
-- Comprehensive test scripts
+### ✅ **PROJECT COMPLETE - 100% INTEGRATED** 🎉
+
+All components have been implemented, integrated, and tested:
+
+#### **Completed Components**
+- ✅ **Document Parsing** (Person 1) - Resume & job description parsing with Gemini API
+- ✅ **Scoring Modules** (Person 2) - Skills, experience, education, location scorers
+- ✅ **Ranking Engine** (Person 3) - Semantic similarity & weighted aggregation
+- ✅ **Web Interface** - Interactive Streamlit UI for ranking
+- ✅ **CLI Interface** - Command-line batch processing
+- ✅ **Pipeline** - End-to-end orchestration
+- ✅ **Tests** - Full integration test suite (5/5 passing)
+- ✅ **Documentation** - Complete usage guide
 
 **Performance:**
 - Speed: ~9 seconds per resume (gemini-2.5-flash-lite)
 - Batch: 50 resumes in ~30-40 seconds (parallel processing)
 - Accuracy: 83%+ data completeness
+- Tests: 5/5 integration tests passing ✅
 
-### 🔨 In Progress
-- **Person 2**: Scoring Modules (skills, experience, education, location)
-- **Person 3**: Ranking Engine & Semantic Similarity
-- **Person 4**: Streamlit UI
+### 🚀 Quick Start
 
-### 📚 Integration Guide
+**Web Interface** (Recommended):
+```bash
+streamlit run frontend/app.py
+# Open browser to http://localhost:8501
+```
 
-For detailed information on integrating with the parsing module, see **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)**
+**Command Line**:
+```bash
+python run_ranking.py --job job.txt --resumes resumes/*.docx
+```
 
-This guide includes:
-- Complete API reference for all data models
-- Code examples for each team member
-- Performance optimization tips
-- Troubleshooting guide
+**Python API**:
+```python
+from src.pipeline import rank_candidates
+results = rank_candidates(job_text="...", resume_files=["resume1.docx"])
+```
+
+### 📚 Documentation
+
+- **[USAGE_GUIDE.md](USAGE_GUIDE.md)** - Complete usage instructions (START HERE!)
+- **[INTEGRATION_COMPLETE.md](INTEGRATION_COMPLETE.md)** - Integration summary & test results
+- **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** - Technical integration details
+- **[PERSON2_INTEGRATION_SUMMARY.md](PERSON2_INTEGRATION_SUMMARY.md)** - Scoring module evaluation
 
 

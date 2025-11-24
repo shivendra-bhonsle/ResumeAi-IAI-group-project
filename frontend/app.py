@@ -227,7 +227,7 @@ if st.session_state.results is not None:
     results = st.session_state.results
 
     # Summary metrics
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         st.metric("Total Candidates", len(results))
@@ -239,10 +239,6 @@ if st.session_state.results is not None:
     with col3:
         avg_score = results['final_score'].mean()
         st.metric("Average Score", f"{avg_score:.1%}")
-
-    with col4:
-        excellent_count = len(results[results['final_score'] >= 0.8])
-        st.metric("Excellent Matches", excellent_count)
 
     st.divider()
 
