@@ -77,7 +77,7 @@ class RequiredSkills(MLReadyBaseModel):
 
 class ExperienceRequirement(MLReadyBaseModel):
     """Experience requirements for the job"""
-    min_years: float = Field(default=0.0, description="Minimum years of experience")
+    min_years: Optional[float] = Field(default=None, description="Minimum years of experience")
     max_years: Optional[float] = Field(default=None, description="Maximum years (if specified)")
     preferred_years: Optional[float] = Field(default=None, description="Preferred years")
 
@@ -204,9 +204,14 @@ class EducationRequirement(MLReadyBaseModel):
 
 class LocationRequirement(MLReadyBaseModel):
     """Location requirements for the job"""
-    location: str = Field(default="Unknown", description="Job location (city/country)")
+    location: Optional[str] = Field(default="Unknown", description="Job location (city/country)")
     remote_allowed: bool = Field(default=False, description="Whether remote work is allowed")
     hybrid: bool = Field(default=False, description="Whether hybrid work is offered")
+
+    def model_post_init(self, __context):
+        """Handle None values after initialization"""
+        if self.location is None:
+            self.location = "Unknown"
 
     def get_location_city(self) -> str:
         """Extract city from location string"""
@@ -271,8 +276,13 @@ class JobDescription(MLReadyBaseModel):
     """
     job_id: Optional[str] = Field(default=None, description="Unique job identifier")
     title: str = Field(default="Unknown", description="Job title")
-    company: str = Field(default="Unknown", description="Company name")
+    company: Optional[str] = Field(default="Unknown", description="Company name")
     role: Optional[str] = Field(default=None, description="Role/position type")
+
+    def model_post_init(self, __context):
+        """Handle None values after initialization"""
+        if self.company is None:
+            self.company = "Unknown"
     description: str = Field(default="", description="Full job description")
     responsibilities: List[str] = Field(default_factory=list, description="Key responsibilities")
 

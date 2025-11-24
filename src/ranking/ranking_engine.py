@@ -28,10 +28,15 @@ class RankingEngine:
     """
     
     def __init__(self):
-        """Initialize the ranking engine."""
-        self.semantic_scorer = SemanticSimilarityScorer()
+        """Initialize the ranking engine with improved semantic scorer."""
+        # Initialize semantic scorer with cross-encoder re-ranking
+        self.semantic_scorer = SemanticSimilarityScorer(
+            use_cross_encoder=config.USE_CROSS_ENCODER,
+            cross_encoder_model=config.CROSS_ENCODER_MODEL,
+            rerank_top_k=config.RERANK_TOP_K
+        )
         self.weights = config.WEIGHTS
-        
+
         # Validate weights
         if not 0.99 <= sum(self.weights.values()) <= 1.01:
             print("WARNING: Weights don't sum to 1.0. Normalizing...")

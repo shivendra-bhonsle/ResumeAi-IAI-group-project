@@ -1,8 +1,12 @@
 # ===========================================
-# ResumeAI - Document Parsing Module
-# Person 1: Document Parsing & LLM Integration
+# ResumeAI - Complete Project Dependencies
+# Fully Integrated Resume Ranking System
 # ===========================================
 # Install: pip install -r requirements.txt
+
+# ===========================================
+# Core Dependencies
+# ===========================================
 
 # Document Processing
 python-docx==1.1.0
@@ -16,30 +20,45 @@ python-dotenv==1.0.0
 # Data Validation & Models
 pydantic>=2.0.0
 
-# Text Processing
+# ===========================================
+# Scoring & Ranking (Person 2 & 3)
+# ===========================================
+
+# Machine Learning & NLP
+sentence-transformers>=2.5.0
+torch>=2.0.0
+scikit-learn==1.3.2
+numpy<2.0.0
+pandas==2.1.3
+
+# Text Processing & Similarity
 rapidfuzz==3.5.2
 
 # ===========================================
-# TO BE ADDED BY OTHER TEAM MEMBERS
+# Frontend (Person 4)
 # ===========================================
 
-# Person 2 (Scoring Modules) - Will add:
-# - scikit-learn (for similarity calculations)
-# - numpy (for numerical operations)
+# Web Interface
+streamlit==1.28.0
+plotly==5.17.0
 
-# Person 3 (Ranking Engine) - Semantic Similarity
-sentence-transformers==2.2.2
-torch>=2.0.0  # Required for sentence-transformers
-scikit-learn==1.3.2  # For cosine_similarity
-pandas==2.1.3  # For data manipulation
-numpy==1.24.3  # For numerical operations
+# Optional: API Backend (if needed)
+# fastapi==0.104.1
+# uvicorn[standard]==0.24.0
 
-# Person 4 (UI) - Will add:
-# - streamlit (for frontend)
-# - plotly (for visualizations)
-# - fastapi (for backend API)
-# - uvicorn (for API server)
+# ===========================================
+# Testing & Development
+# ===========================================
 
-# Testing (when needed):
-# - pytest
-# - pytest-cov
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# ===========================================
+# Additional Utilities
+# ===========================================
+
+# Logging and debugging
+colorama==0.4.6  # Colored terminal output
+
+# Data export formats
+openpyxl==3.1.2  # Excel export support

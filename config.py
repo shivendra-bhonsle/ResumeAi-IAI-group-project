@@ -40,8 +40,13 @@ if not GEMINI_API_KEY:
 # Gemini model for document parsing
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
 
-# Sentence transformer model for semantic similarity
+# Sentence transformer model for semantic similarity (Bi-Encoder)
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-mpnet-base-v2")
+
+# Cross-Encoder configuration for re-ranking
+USE_CROSS_ENCODER = os.getenv("USE_CROSS_ENCODER", "true").lower() == "true"
+CROSS_ENCODER_MODEL = os.getenv("CROSS_ENCODER_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")
+RERANK_TOP_K = int(os.getenv("RERANK_TOP_K", "20"))
 
 # ===========================================
 # Scoring Weights

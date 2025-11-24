@@ -36,6 +36,7 @@ CRITICAL RULES:
 9. For experience, extract company name, job title, dates, and key responsibilities
 10. Distinguish between education levels: Bachelor, Master, PhD, etc.
 
+degree.level must be one of: 'high_school', 'diploma', 'associate', 'bachelor', 'master', 'doctorate', 'unknown'. Do NOT output strings like 'high school'; use the exact enum values.
 IMPORTANT: Return ONLY the JSON object. No markdown code blocks, no explanations."""
 
 

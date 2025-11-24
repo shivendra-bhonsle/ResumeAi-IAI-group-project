@@ -1,0 +1,43 @@
+Data Scientist – E-Commerce
+Location: Hybrid / Remote
+Job Type: Full-Time
+Experience: 2-4 years
+About the Role
+We are looking for a highly analytical and impact-driven Data Scientist to join our growing e-commerce analytics team. In this role, you will use statistical modeling, machine learning, and rigorous experimentation to drive key decisions across the customer lifecycle—ranging from acquisition and conversion to retention and personalization. You will partner closely with Marketing, Product, Growth, and Engineering to deliver insights and build predictive systems that accelerate business performance.
+
+Responsibilities
+Statistical Analysis & Experimentation
+Design, implement, and analyze A/B tests and multivariate experiments to measure the impact of new features, pricing strategies, and marketing campaigns.
+Apply advanced statistical techniques (e.g., hypothesis testing, regression analysis, propensity modeling, causal inference) to uncover actionable insights.
+Develop customer segmentation frameworks using clustering, RFM analysis, and behavior-based approaches.
+Machine Learning & Predictive Modeling
+Build, validate, and deploy machine learning models for demand forecasting, churn prediction, recommendation systems, dynamic pricing, fraud detection, and marketing optimization.
+Implement scalable ML pipelines using tools such as Python, scikit-learn, TensorFlow, PyTorch, Spark, or equivalent frameworks.
+Continuously monitor model performance, address drift, and improve model accuracy and robustness.
+Data Analytics & Business Insights
+Conduct deep-dive analyses into customer behavior, website funnels, product performance, and marketing channels.
+Translate complex analytical results into clear, compelling stories that support strategic decision-making.
+Develop dashboards and automated reporting using SQL, Tableau/PowerBI, or similar BI tools.
+Data Engineering Collaboration
+Work with data engineering to enhance data pipelines, ensure data quality, and maintain a reliable analytics environment.
+Leverage large-scale datasets from sources such as transactional databases, clickstream logs, and CRM platforms.
+
+Qualifications
+Required
+Bachelor’s or Master’s in Statistics, Data Science, Computer Science, Mathematics, Economics, or a related quantitative field.
+Strong proficiency in statistical modeling, experimental design, probability, and data analysis.
+Advanced programming skills in Python (preferred) or R.
+Expert-level SQL for querying large, complex datasets.
+Experience building and deploying machine learning models for real-world business applications.
+Strong understanding of e-commerce metrics: CAC, LTV, conversion rates, retention cohorts, funnel analysis, and user behavior.
+Ability to communicate complex technical concepts to non-technical stakeholders.
+Preferred
+Experience with big data technologies (e.g., Spark, Databricks, Snowflake, BigQuery).
+Familiarity with recommendation systems, ranking algorithms, or marketing attribution models.
+Hands-on experience with cloud environments (AWS, GCP, Azure).
+Knowledge of causal inference frameworks such as DID, IV, synthetic controls, or uplift modeling.
+
+What We Offer
+Opportunity to shape ML and analytics strategy for a rapidly scaling e-commerce organization.
+Collaborative culture with exposure to cross-functional teams and senior leadership.
+Competitive compensation and benefits, flexible work arrangements, and continuous learning opportunities.
