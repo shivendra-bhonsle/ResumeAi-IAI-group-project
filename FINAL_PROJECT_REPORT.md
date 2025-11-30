@@ -375,8 +375,9 @@ We built a web interface that allows HR teams to:
 The entire workflow takes under 2 minutes for typical batches of 10-20 resumes.
 
 ---
+# 3. Evaluation and Datasets
 
-### 3.1 Evaluation Methodology
+### 3.1 Evaluation
 
 **Dataset Sources and Composition:**
 
@@ -393,10 +394,10 @@ Our evaluation dataset consisted of real-world resumes and job descriptions proc
 - **Format**: Standard .docx files (Word documents) representing typical real-world resume formats
 - **Variety**: Single-column, two-column, tables, various section orders and layouts
 - **Diversity**: Resumes with varying technical backgrounds, skills, and experience levels
-- **Experience range**: 0-10+ years across candidates
+- **Experience range**: 0-10+ years across candidates across various roles
 - **Education levels**: Bachelor's through Master's degrees
 
-**System Design Philosophy:** Our system is role-agnostic and determines candidate-job fit purely from content matching (skills, experience, semantic similarity, education). We do not use predefined role labels or categories in the matching algorithm, as this would constitute data leakage. The system works with any job description and evaluates fit based on the actual requirements stated in the posting, not predetermined classifications.
+**System Design Philosophy:** Our system is role-agnostic and determines candidate-job fit purely from content matching (skills, experience, semantic similarity, education). We do not use predefined role labels or categories in the matching algorithm unless it is mentioned in the document or job description itself, as this would constitute data leakage. The system works with any job description and evaluates fit based on the actual requirements stated in the posting, not predetermined classifications.
 
 **Data Processing Approach:**
 To build our parsing and matching system, we leveraged two reference datasets for structural guidance:
@@ -465,7 +466,7 @@ This alignment confirmed that our weighted scoring formula produces actionable, 
 
 To demonstrate the impact of our iterative improvements, we present detailed results using 5 candidates from our human-evaluated subset matched against a job description with data science requirements.
 
-**Note on Terminology:** For clarity in this report, we use descriptive labels like "Data Scientist" or "Backend Engineer" to help readers understand candidate backgrounds. However, our system does not use these labels - it evaluates fit purely from job description requirements and resume content (skills, experience, semantic similarity).
+**Note on Terminology:** For clarity in this report, we use descriptive labels like "Data Scientist" or "Backend Engineer" to help readers understand candidate backgrounds. However, our system does not use these labels - it evaluates fit purely from job description requirements (which may be titled with the role) and resume content (skills, experience with the role mentioned, semantic similarity).
 
 #### Test Case: Job Description with Data Science Requirements
 
